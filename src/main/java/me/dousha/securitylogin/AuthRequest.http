@@ -1,0 +1,4 @@
+POST http://localhost:8080/login?username=smith&password=smith123
+Accept: application/json
+
+###
