@@ -4,11 +4,9 @@ SpringBoot整合Shiro+Jwt 方便我直接使用
 
 # 延伸阅读
 
-URL规则<http://shiro.apache.org/web.html
+URL规则<http://shiro.apache.org/web.html>
 
 ***\*URL结构\****
-
-
 
 | URL         | 作用           |
 
@@ -24,3 +22,7 @@ URL规则<http://shiro.apache.org/web.html
 
 | /require_permission | 拥有view和edit权限的用户才可以访问  |
 
+| username | password | role  | permission |
+| -------- | -------- | ----- | ---------- |
+| smith    | smith123 | user  | view       |
+| danny    | danny123 | admin | view,edit  |
